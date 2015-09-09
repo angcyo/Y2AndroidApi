@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/link_bg_selector"
+    android:clickable="true"
+    android:padding="5dp">
+
+    <View
+        android:id="@+id/summary_divider"
+        android:layout_width="match_parent"
+        android:background="#DD0000"
+        android:visibility="gone"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:id="@+id/summary_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="type"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/summary_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/summary_type"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="link"
+        android:textSize="16sp"
+        android:textColor="@color/accent_blue" />
+
+    <TextView
+        android:id="@+id/summary_descr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/summary_link"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="descr"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparency_col_4"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/exit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_exit"
+        android:textColor="@color/green"
+        android:textSize="@dimen/ds_text_big_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exit_text"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/exit1"
+            android:layout_width="@dimen/exit_text_img_width"
+            android:layout_height="@dimen/exit_text_img_height"
+            android:layout_marginRight="5dp"
+            android:background="@color/theme_text_col_msg" />
+
+        <View
+            android:id="@+id/exit2"
+            android:layout_width="@dimen/exit_text_img_width"
+            android:layout_height="@dimen/exit_text_img_height"
+            android:layout_marginRight="5dp"
+            android:background="@color/theme_text_col_msg" />
+
+        <View
+            android:id="@+id/exit3"
+            android:layout_width="@dimen/exit_text_img_width"
+            android:layout_height="@dimen/exit_text_img_height"
+            android:layout_marginRight="5dp"
+            android:background="@color/theme_text_col_msg" />
+    </LinearLayout>
+
+</RelativeLayout>

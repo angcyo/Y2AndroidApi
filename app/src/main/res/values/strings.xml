@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Y2AndroidApi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="str_exit">再按一次退出</string>
+</resources>

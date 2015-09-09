@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#468458</color>
+    <color name="accent_green">#4CAF50</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="accent_blue">#77cbff</color>
+
+    <color name="text_color_primary">@android:color/white</color>
+    <color name="text_second_color_primary">@android:color/white</color>
+
+    <color name="grey" >#ffbebebe</color>
+    <color name="grey_1">#9E9E9E</color>
+    <color name="dark_grey">#FF080808</color>
+    <color name="light_grey">#ffbebebe</color>
+    <color name="light_grey_1">#FFEEEEEE</color>
+
+    <color name="drawer_scrim_color">#88EEEEEE</color>
+    <color name="action_bar_title_color">@android:color/white</color>
+    <color name="window_background">@android:color/white</color>
+
+    <color name="dark_tran">#40000000</color>
+
+    <color name="theme_col_blue">#3ED8ED</color>
+    <color name="theme_col_press">#983e3e</color>
+    <color name="theme_col_normal">#898989</color>
+    <color name="theme_text_col_press">#ff6262</color>
+    <color name="theme_text_col_normal">#d2d2d2</color>
+    <color name="theme_text_col">#dddddd</color>
+    <color name="theme_text_col_msg">#FDFDFD</color>
+    <color name="head_title_col">#F0F0F0</color>
+    <color name="head_title2_col">#D9D9D9</color>
+    <color name="col_text">#F0F0F0</color>
+    <color name="transparency_col_5">#90000000</color>
+    <color name="transparency_col_4">#80000000</color>
+    <color name="transparency_col_3">#60000000</color>
+    <color name="transparency_col_2">#30000000</color>
+    <color name="transparency_col_1">#10000000</color>
+    <color name="transparency_all">#00000000</color>
+    <color name="transparency_press_col">#95000000</color>
+</resources>

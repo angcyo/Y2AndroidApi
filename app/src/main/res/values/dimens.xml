@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="exit_text_img_width">55dp</dimen>
+    <dimen name="exit_text_img_height">5dp</dimen>
+
+    <dimen name="ds_text_big_size">30sp</dimen>
+
+</resources>
